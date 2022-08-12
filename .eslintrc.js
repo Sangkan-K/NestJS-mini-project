@@ -1,8 +1,10 @@
+// 개발자들의 코드를 깔끔하게 만들어 줌 - 문법 에러를 주로 봐줌
+// prettierrc 는 코드의 형식을 맞춘다. - 코드 formatter 역할
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: 'tsconfig.json',
-    tsconfigRootDir : __dirname, 
+    tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
